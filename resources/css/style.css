@@ -1,0 +1,112 @@
+* {
+    font-family: "Roboto Slab";
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+p {
+  font-size: 16px;
+  max-width: 1000px;
+  text-align: left;
+  padding: 8px 0px;
+}
+.top-bar {
+    background-color: #181818;
+    color: white;
+    padding: 10px 0;
+    height: 80%;
+  }
+
+.top-bar li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    align-items:baseline;
+    padding: 15px;
+  }
+  
+  .top-bar li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+.maintitle {
+    font-size: 26px;
+}
+
+.main-text {
+  margin: 50px auto;
+  padding: 20px auto;
+  width: 60%;
+
+}
+
+.main-text h2 {
+  padding: 20px 0px;
+}
+
+.blog h1 {
+  margin: 20px 0 0;
+  padding: 10px 0;
+}
+
+.blog-post {
+  border: 1px dotted gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+.blog-post li {
+  padding: 3px 10px;
+  position: relative;
+  left: 30px;
+
+}
+
+footer {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px 20px;
+  color: black;
+  background-color: white;
+  
+}
+
+button:hover {
+  color: white;
+  background-color: #181818;
+  padding: 2px 20px;
+}
