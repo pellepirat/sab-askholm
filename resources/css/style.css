@@ -31,6 +31,10 @@ p {
   padding: 8px 0px;
   line-height: 130%;
 }
+
+a {
+  color: black
+}
 .top-bar {
     background-color: #181818;
     color: white;
@@ -168,3 +172,27 @@ button:hover {
   text-align: center;
   display: inline-block;
 }
+
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+} 
+
