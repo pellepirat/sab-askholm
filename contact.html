@@ -22,21 +22,23 @@
       </div>
     
     <div class="main-text">
-<form action="process-form.php" method="POST">
-    <label for="name">Navn:</label>
-    <input type="text" id="name" name="name" required><br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-
-    <label for="subject">Emne:</label>
-    <input type="text" id="subject" name="subject" required><br><br>
-
-    <label for="message">Meddelelse:</label><br>
-    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-    <button type="submit">Submit</button>
-</form>
+      <form id="contact-form">
+        <label for="name">Dit navn:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Din email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="subject">Emne:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+    
+        <label for="message">Besked:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+        <button type="submit">Send</button>
+    
+      </form><script src="contact-form.js"></script>
+  
 
     </div>
     </main>
