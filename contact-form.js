@@ -4,7 +4,7 @@ form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const formData = new FormData(form);
-    const response = await fetch('https://formsubmit.co/bestyrelsen@sab-askholm.dk', {
+    const response = await fetch('https://formsubmit.co/el/vebivi', {
         method: 'POST',
         body: formData
     });
@@ -13,6 +13,6 @@ form.addEventListener('submit', async (event) => {
         alert('Beskeden blev sendt!');
         form.reset(); // Reset the form fields
     } else {
-        alert('Beskeden blev ikke sendt! - Alternativt kan du skrive direkte til bestyrelsen@sab-askholm.dk');
+        alert('Beskeden blev ikke sendt! - Prøv igen senere');
     }
 });
