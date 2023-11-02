@@ -108,6 +108,12 @@ a {
   padding: 10px 0;
 }
 
+.blog {
+  align-items: flex-start; /* Tilpas blog-containeren til at starte øverst */
+  display: flex;
+  flex-wrap: wrap; /* Tillad blogposterne at vikle til næste række, hvis der ikke er plads */
+  justify-content: space-between; /* Fordel blogposterne med lige afstand */
+}
 .blog-post {
   border: 1px dotted gray;
   padding: 30px;
