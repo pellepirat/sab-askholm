@@ -1,118 +1,81 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <title>SAB Askholm - Beboerforening</title>
   </head>
   <body>
     
-    
-   <div class="top-bar">
+     <!-- Cover photo with welcome -->
+      <div class="photo-container">
+        <!-- background image -->
+        <div class="background-photo"></div>
+        <div class="photo-text">
+          <h1 style="color: white;">Velkommen til SAB Askholm</h1>
+          <h2 style="color: white;">En almen boligafdeling på Sluseholmen</h2>
+            <button class="button" onclick="scrollToId('news')"> Seneste nyt</button> 
+        </div>
+      </div>
+
+
+      <!-- Referat infobox -->
+    <div id="info-box" class= "info-box hidden">
+      <div style="text-align: right;"><button id="info-box-toggle">&#x2715;</button></div>
       
-        <nav>
-          <ul>
-            <li><a href="./index.html"><h1 class="maintitle ">SAB ASKHOLM</h1></a></li>
-            <li><a href=./about.html> Om Askholm</a></li>
-            <li><a href=./bestyrelsen.html> Bestyrelsen</a></li>
-            <li><a href=./newsletter.html> Tilmeld Nyhedsbrev</a></li>
-            <li><a href=./contact.html> Kontakt</a></li>
-          </ul>
-        </nav>
+      <div class="info-box-wrapper">
+      <h1 id="info-box-title">Title</h1>
+      <div class="info-box-content">
+        <h3 id="time">tid</h3>
+        <h3 id="participant">tilstedeværende</h3>
+        <p id="info-box-text">indhold</p>
       </div>
-      <div class="photo">
-        <a href="#info"> Seneste nyt fra bestyrelsen </a>
-      </div>
-    
-        <div class="main-text">
-
-      
-
-          <h1 id="info">Seneste nyt fra bestyrelsen:</h1>
-      <div class="blog">
-        
-        
-
-        <!-- Tilføj referat herunder :-->
-        <div class="blog-post">
-          <h2>Bestyrelsesmøde Januar 2024</h2>
-          <p class="date">03 Januar, 2024</p>
-          <p>Opsummering:</p>
-          <ul>
-            <li>Opfølgning på sidste møde</li>
-            <li>Vandindtrængen i P-kælder</li>
-            <li>Cykelparkering Dexter Gordons Vej</li>
-            <li>Kommunikation om Bestyrelsen</li>
-            <li>Evt.</li>
-          </ul>
-            <br>
-          </ul>
-          <a href="resources\referater\bestyr-moede-03-jan-2024.html">Læs mere...</a>
-        </div>
-
-        <div class="blog-post">
-          <h2>Bestyrelsesmøde November 2023</h2>
-          <p class="date">08 November, 2023</p>
-          <p>Opsummering:</p>
-          <ul>
-            <li>Opfølgning på sidste møde</li>
-            <li>Markvandring + Økonomi</li>
-            <li>Tjek op på medfinansiering af udgifter til p-kælder</li>
-            <li>Generelt om Økonomi</li>
-            <li>Hjemmeside + information fra bestyrelsen</li>
-            <li>Evt.</li>
-          </ul>
-            <br>
-          </ul>
-          <a href="resources\referater\bestyr-moede-08-nov-2023.html">Læs mere...</a>
-        </div>
-        
-        <div class="blog-post">
-          <h2>Bestyrelsesmøde Oktober 2023</h2>
-          <p class="date">10 Oktober, 2023</p>
-          <p>Opsummering:</p>
-          <ul>
-            <li>Opfølgning på sidste møde</li>
-            <li>Information om SAB og organisationen generelt ved Lise Buhelt</li>
-            <li>Opsøgende arbejde og bestyrelsens synlighed</li>
-            <li>Cykeloprydning og -parkering</li>
-            <li>Beboerlokale og gæsteværelse</li>
-            <li>Genbrugsstation og affaldssortering</li>
-            <li>Driftkonti og økonomi + Markvandring</li>
-            <li>Bestyrelseskursus og seminar</li>
-            <li>Generelt</li>
-            <br>
-          </ul>
-          <a href="resources\referater\bestyr-moede-10-oct-2023.html">Læs mere...</a>
-        </div>
-        
-        
-        <div class="blog-post">
-          <h2>Bestyrelsesmøde Juni 2023</h2>
-          <p class="date">15 Juni, 2023</p>
-          <p>Opsummering:</p>
-          <ul>
-            <li>Beboerlokale og Gæstebolig</li>
-            <li>Cykelparkering</li>
-            <li>Gårdlaug</li>
-            <li>Hjemmeside</li>
-            <li>Kommunikation</li>
-            <li>Opgange</li>
-            <li>Generelt</li>
-            <br>
-          </ul>
-          <a href="resources\referater\bestyr-moede-jun-23.html">Læs mere...</a>
-        </div>
-    
-  
-      </div>
-   
     </div>
-    </main>
-    
-    <footer>
-      <p>ASKHOLM <br> 2450 KØBENHAVN SV </p>
-    </footer>
-              
+    </div>
+
+<div class="main-text">
+
+    <table id="news">
+
+    <tbody>
+      <!-- Add rows below (new on top) -->
+        <tr>
+            <td class="table-emne">Brev fra bestyrelsen</td>
+            <td class="table-time">April 2024</td>
+            <td><button class="button referatButton" id="brev-apr-24">Læs mere</button></td>
+        </tr>
+        <tr>
+            <td class="table-emne">Bestyrelsesreferat</td>
+            <td class="table-time">Jan 2024</td>
+            <td><button class="button referatButton" id="best-jan-24">Læs mere</button></td>
+        </tr>
+        
+        <tr>
+            <td class="table-emne">Bestyrelsesreferat</td>
+            <td class="table-time">November 2023</td>
+            <td><button class="button referatButton" id="best-nov-23">Læs mere</button></td>
+        </tr>
+        
+        <tr>
+            <td class="table-emne">Bestyrelsesreferat</td>
+            <td class="table-time">Oktober 2023</td>
+            <td><button class="button referatButton" id="best-okt-23">Læs mere</button></td>
+        </tr>
+        
+        <tr>
+            <td class="table-emne">Bestyrelsesreferat</td>
+            <td class="table-time">Juni 2023</td>
+            <td><button class="button referatButton" id="best-jun-23">Læs mere</button></td>
+        </tr>
+        
+        
+
+    </tbody>
+    </table>
+    </div>
+  </div>
+  <script src="navbar.js"></script>
+  <script type="module" src="referat.js"></script>
+
   </body>
 </html>

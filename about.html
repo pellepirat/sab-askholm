@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
     <link rel="stylesheet" type="text/css" href="resources\css\style.css">
+    
     <title>SAB Askholm - Beboerforening</title>
   </head>
   <body>
-   
-    
-   <div class="top-bar">
       
-        <nav>
-          <ul>
-            <li><a href="./index.html"><h1 class="maintitle ">SAB ASKHOLM</h1></a></li>
-            <li><a href=./about.html> Om Askholm</a></li>
-            <li><a href=./bestyrelsen.html> Bestyrelsen</a></li>
-            <li><a href=./newsletter.html> Tilmeld Nyhedsbrev</a></li>
-            <li><a href=./contact.html> Kontakt</a></li>
-          </ul>
-        </nav>
-      </div>
-    
-    <div class="main-text">
+    <script src="navbar.js"></script>
+ 
+ 
+   <!-- Cover photo with welcome -->
+   <div class="photo-container" style="background-color: white;">
+    <!-- background image -->
+    <div class="background-photo" style="opacity: 0.2;"></div>
+    <div class="photo-text" style="margin: auto 10px ;">
+    <h1 style="padding: 30px ; z-index: 3; color: #193F64; text-align: center;">Emner</h1>
+    <div class="info-content">
+      <a class="button widebutton" >Om Askholm og SAB</a>
+      <a class="button widebutton" >Gårdlauget</a>
+      <a class="button widebutton" >Grundejerforeningen</a>
+    </div>
+    <div class="info-content">
+      <a class="button widebutton" >Kajak</a>
+      <a class="button widebutton" >Fælles Værksted</a>
+      <a class="button widebutton" >Beboerlokale og Gæsteværelse</a>
+    </div>
+    </div>
+  </div>  
 
-        <h2>Om ASKHOLM</h2>
+    <div class="main-container">
+      <div class="main-text">
+        <h2 id="button1">Om ASKHOLM</h2>
 
         <p>Askholm ligger på Sluseholmen, som er en halvø i Sydhavnen, hvor kanaler frem for veje adskiller bygningerne fra hinanden. Bydelen er kendetegnet ved at have blandede lejerforhold, hvor ejere og lejere bor side om side i en blanding af almene og private boliger.</p>
 
@@ -49,7 +58,7 @@
       
         <p>Endvidere er vi medlem af Grundejerforeningen Sluseholmen Nord, som har ansvaret for miljøstationen, fortove, kloakker, veje og kanaler samt udlejningen af bådpladser m.m. på Sluseholmen.</p>
                        
-            <h2>Gårdlauget Askholm</h2>
+            <h2 id="gaard">Gårdlauget Askholm</h2>
             <p>Gårdlauget er etableret mellem boligafdelingen Askholm og lejerforeningen Askholm.</p>
             <p>Der afholdes en årlig generalforsamling i april/maj måned.</p>
             <p>Gårdlauget har ansvaret for rengøringen og vedligeholdelsen af gården og parkeringskælderen. <br> 
@@ -66,9 +75,9 @@
             <h3>Links</h3>
             <a href="www.gfsluseholmen.dk" target="_blank">www.gfsluseholmen.dk</a>
 
-    </div>
+    
 
-    <div class="main-text">
+
         <h2>Beboerlokale &amp; Gæsteværelse</h2>
         <p>Askholm råder over et beboerlokale med tilhørende køkken og toiletter, som er godkendt til ca. 40-45 personer. Beboerlokalet er forsynet med AV-projektor og musikanlæg, borde og stole. I køkkenet er der køleskab, fryser, gaskomfur og opvaskemaskine samt service og køkkeninventar m.m. Der er to toiletter i tilknytning til beboerlokalet.</p>
     
@@ -83,14 +92,9 @@
     
         <p>Lejen er baseret på, at du afleverer lokalerne rydeligt og rengjort.</p>
     
-        
       </div>
-    </main>
+      </div>
     
-    <footer>
-      <p>ASKHOLM <br> 2450 KØBENHAVN SV </p>
-    </footer>
-              
   </body>
 </html>
     
