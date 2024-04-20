@@ -40,6 +40,7 @@ function scrollFunction() {
 
     // scroll button show
     document.getElementById('scrollButton').style.opacity = 1;
+    
   } else {
     // navbar
     document.querySelector("nav").style.height = "110px";
@@ -48,7 +49,7 @@ function scrollFunction() {
 
     // scroll button hide
     document.getElementById('scrollButton').style.opacity = 0;
-  
+    
   }
 }
 // Button to return to top
@@ -61,6 +62,11 @@ function scrollToTop() {
 }
 
 function scrollToId(id) {
-  document.getElementById(id).scrollIntoView();
+  const yOffset = -70; 
+  const element = document.getElementById(id);
+  const y = element.getBoundingClientRect().top + yOffset;
+  
+  window.scrollTo({top: y, behavior: 'smooth'});
+  // document.getElementById(id).scrollIntoView();
 }
 

@@ -1,10 +1,60 @@
 let referater = [
-    {       
+
+// tilføj referat nedenfor (husk komma):
+{       
+  id: 'best-apr-24',
+  tid: 'April 2024',
+  attendees: 'NMA, ITG, BB',
+  text: `<h3>1. Opsamling på Afdelingsmøde</h3>
+  <p>Bestyrelsen vil udsende et brev angående følgende emner:</p>
+  <ul>
+      <li>Opfølgning på afdelingsmødet</li>
+      <li>Information om bestyrelsens arbejde, herunder økonomi og planlægning</li>
+      <li>Forslag til bestyrelsens arbejde det kommende år med fokus på at øge transparensen for at lette arbejdet</li>
+  </ul>
+  <br>
+  <h3>2. Generalforsamling - Grundejerforeningen</h3>
+  <p>Der vil blive fulgt op på generalforsamlingen i grundejerforeningen angående mødetid, mødested og deltagelse fra bestyrelsen.</p>
+  <h3>3. Beboerlokale</h3>
+  <p>Bestyrelsen overvejer at nedsætte et udvalg til at administrere beboerlokalet med fokus på indretning og inventar.</p>
+  `
+},    
+{       
         id: 'brev-apr-24',
         tid: 'April 2024',
         attendees: '-',
-        text: ` Tekst kommer snart
+        text: ` <h4>Brev fra din afdelingsbestyrelse</h4>
+        <p>Kære nabo,</p>
+        <p>Vi i bestyrelsen vil gerne give et lille indblik i bestyrelsen, bestyrelsens arbejde, hvorfor det er vigtigt at have en bestyrelse i en almen boligforening, og hvordan du som beboer kan hjælpe bestyrelsen.</p>
+        <p>Bestyrelsen består i dag af tre personer: Niklas Munk-Andersen (formand), og bestyrelsesmedlemmerne Ivy Tingting Guan og Birgitte Bidstrup. Bestyrelsen mødes en gang om måneden og drøfter stort og småt.</p>
+        <p>Vores primære rolle er at varetage beboernes interesser, og gennem dialog med KAB, Driftscenteret, Gårdlauget, Grundejerforeningen m.fl. sørge for at det er rart og godt at bo i vores afdeling.</p>
+        <p>Det er også op til bestyrelsen, at holde øje med økonomien, og sørge for at vi ikke ender med unødige udgifter, og dermed huslejestigninger til følge.</p>
+        <p>Bestyrelsen drives på frivillig basis. Vi synes det er vigtigt at foreningen har en bestyrelse, da der ellers bliver truffet beslutninger for os, der ikke nødvendigvis er i vores interesse. Eksempelvis indgår bestyrelsen kontinuerligt i drøftelser med alle interessenter vedr. fordelingen af større udgiftsposter (fx kloakvandskaden i p-kælder i året 2021 samt den pågående nedsivning af regnvand i p-kælder.)</p>
+        <p>Et andet eksempel er vedligeholdelse af vores dejlige beboerlokale og gæstebolig, herunder indkøb af nye dyner, tømning af støvsugerpose eller rengøring/afkalkning af opvaskemaskine mv. som bestyrelsen har varetaget indtil videre, men som vi overvejer at betale os fra via servicecenteret, da vi i bestyrelsen ikke har tid til det.</p>
+        <h4><strong>Hvordan kan du som beboer hjælpe bestyrelsen ?</strong></h4>
+        <ol>
+            <li>
+                <p><strong>Feedback</strong></p>
+                <p>Vi vil meget gerne høre fra dig! Hvordan går det i afdelingen? Hvad fungerer og hvad gør ikke? Er der ting vi skal tage op med servicecenteret? Mangler vi noget i afdelingen?</p>
+                <p>Eksempelvis: Fælles arrangementer, faciliteter, rengøring, ladestandere i p-kælderen eller andet.</p>
+            </li>
+            <li>
+                <p><strong>Hjælp med beboerlokale &amp; gæstebolig</strong></p>
+                <p>Bestyrelsen er- som dig – generelt ophængt i hverdagen. Derfor har vi brug for hjælp.</p>
+                <p>Vi behøver ca. 1-2 personer én gang i kvartalet i ca. 1 time, til at gennemgå lokalerne.</p>
+                <p>Vi tager et møde med interesserede. Tilmelding er på ingen måde bindende, hvorfor man altid kan trække sig.</p>
+            </li>
+        </ol>
+        <h4>Skriv til os på <a href="mailto:bestyrelsen@sab-askholm.dk">bestyrelsen@sab-askholm.dk</a></h4>
+        <p>Med venlig hilsen</p>
+        <p>Din bestyrelse.</p>
         `
+    },
+    {       
+      id: 'afdeling-mar-24',
+      tid: '13. Marts 2024',
+      attendees: 'NMA, ITG, BB, MER',
+      text: ` <a href="https://www.sab-bolig.dk/boligafdelinger/alfabetisk-oversigt/askholm/boks2/afdelingsmoeder/13-03-2024">Læs referat her</a> `          
     },
     {       
     id: 'best-jan-24',

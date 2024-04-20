@@ -291,10 +291,6 @@ nav {
   line-height: normal;
 }
 
-.widebutton {
-  height: 25px;
-  width: 225px;
-}
 .button:hover {
   transform: scale(1.05);
   cursor: pointer;
@@ -306,7 +302,11 @@ nav {
 }
 
 
-/* Link table stling */
+.bestyrelse-grid li {
+  margin-left: 25px;
+}
+
+/* Link table styling */
 table {
   width: 100%;
   border-collapse: collapse;
