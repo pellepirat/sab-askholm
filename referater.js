@@ -1,7 +1,8 @@
 let referater = [
 
 // tilføj referat nedenfor (husk komma):
-{       
+{ 
+  title: 'Bestyrelsesmøde',
   id: 'best-apr-24',
   tid: 'April 2024',
   attendees: 'NMA, ITG, BB',
@@ -19,7 +20,7 @@ let referater = [
   <p>Bestyrelsen overvejer at nedsætte et udvalg til at administrere beboerlokalet med fokus på indretning og inventar.</p>
   `
 },    
-{       
+{       title: 'Brev fra bestyrelsen',
         id: 'brev-apr-24',
         tid: 'April 2024',
         attendees: '-',
@@ -50,17 +51,19 @@ let referater = [
         <p>Din bestyrelse.</p>
         `
     },
-    {       
+    { 
+      title: 'Afdelingsmøde',      
       id: 'afdeling-mar-24',
       tid: '13. Marts 2024',
       attendees: 'NMA, ITG, BB, MER',
       text: ` <a href="https://www.sab-bolig.dk/boligafdelinger/alfabetisk-oversigt/askholm/boks2/afdelingsmoeder/13-03-2024">Læs referat her</a> `          
     },
     {       
-    id: 'best-jan-24',
-    tid: '3. Januar 2024',
-    attendees: 'NMA, JR, BB, MER, ITG',
-    text: `
+      title: 'Bestyrelsesmøde',  
+      id: 'best-jan-24',
+      tid: '3. Januar 2024',
+      attendees: 'NMA, JR, BB, MER, ITG',
+      text: `
     <h4>Opfølgning på sidste møde:</h4>
         <p>Bestyrelsen har fulgt op på aktiviteter siden sidste møde. 
           Der har været bestyrelseskursus hvor Niklas har deltaget, samt område møde for SAB gruppen Vanløse. Her deltog formanden, Niklas. <br>
@@ -94,13 +97,8 @@ let referater = [
           Samtidig bemærkes det også at beboere opfordres til at stille forslag til bestyrelsen såfremt man ønsker at tage noget på afdelingsmødet i marts. </p>
     `
 }, 
-{       
-    id: 'best-apr-24',
-    tid: '3. April 2024',
-    attendees: 'NMA, BB, ITG',    
-    text: 'Referat kommer snart'
-}, 
-{       
+{   
+    title: 'Bestyrelsesmøde',    
     id: 'best-nov-23',
     tid: '8. November 2023',
     attendees: 'NMA, MR, ITG, BB',    
@@ -131,7 +129,8 @@ let referater = [
     <p>Problemer med støjende fester og overskridelse af husordenen diskuteres. Birgitte arbejder på at udarbejde en "husorden" for lokalerne, som skal sendes til lejere. Forsøg på at skaffe et driftsbudget isoleret for beboerlokale+gæstebolig.</p>
 `
 }, 
-{       
+{   
+    title: 'Bestyrelsesmøde',    
     id: 'best-okt-23',
     tid: '10. Oktober 2023',
     attendees: 'NMA, MR, ITG, BB',    
@@ -169,7 +168,8 @@ let referater = [
         <h4>Generelt:</h4>
         <p>Beslutning om at vælge repræsentantskab af bestyrelsen frem for personlig repræsentation, da det giver større fleksibilitet og mulighed for afstemninger i løbet af året. Fastlæggelse af næste mødedato den 8. november eller muligvis den første onsdag i hver måned.</p>`
 }, 
-{       
+{   
+    title: 'Bestyrelsesmøde',     
     id: 'best-jun-23',
     tid: '23. Juni 2023',
     attendees: 'NMA, JR, MR, ITG, BB',    

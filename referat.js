@@ -25,7 +25,7 @@ function updateInfoBox(referatId) {
     const referat = referater.find(r => r.id === referatId);
 
     if (referat) {
-    infoBoxTitle.textContent = 'Bestyrelsesreferat'
+    infoBoxTitle.textContent = referat.title;
     infoBoxTime.innerHTML = 'Tidspunkt: ' + referat.tid;
     infoBoxAttendees.textContent = 'Deltagere: ' + referat.attendees;
     infoBoxText.innerHTML = referat.text;
