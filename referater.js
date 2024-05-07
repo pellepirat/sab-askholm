@@ -3,6 +3,38 @@ let referater = [
 // tilføj referat nedenfor (husk komma):
 { 
   title: 'Bestyrelsesmøde',
+  id: 'best-maj-24',
+  tid: 'Maj 2024',
+  attendees: 'NMA, ITG, BB',
+  text: `<h3>Brev fra bestyrelsen: Indkomne forslag:</h3>
+  <p>
+    Orangeri i gården - Tages med videre til gårdlaug for mulighedsafklaring
+    <br/>
+    Gæsteparkering DGV eller Kælder
+
+      <li>Ift. gadeparkering - Tages med til generalforsamling</li>
+      <li>Ift. kælderparkeing - Afklaring med KAB/Drift</li>
+
+      Problemer med vinduer:
+    <li>Vinduer - Tjek med drift hvad planen for vinduer er.</li>
+
+    Udluftning i opgange:
+    <li>Udluftning - Tjek med drift hvad muligheder er? Evt. elektronisk styring eller sæsonbetonet styring (lukket i vinter / åbent om sommeren).</li>
+    </p>
+    <h3>Generalforsamling GF Sluseholmen </h3>
+    <p>Alle forslag til generalforsamlingen kan godkendes af bestyrelsen.</p>
+
+  
+  <h3>Driften</h3>
+  <p>Der følges op på de åbne punkter med driften.</p>
+  
+  <h3>Fotografering af afdeling</h3>
+  <p>Der planlægges en fotografering af afdelingen i samarbejde med SAB - bestyrelsen hører gerne fra beboere der er interesserede i at stille op. 
+  <h4>Skriv til os på <a href="mailto:bestyrelsen@sab-askholm.dk">bestyrelsen@sab-askholm.dk</a></h4>
+  </p>
+  `
+}, { 
+  title: 'Bestyrelsesmøde',
   id: 'best-apr-24',
   tid: 'April 2024',
   attendees: 'NMA, ITG, BB',
