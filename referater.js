@@ -2,6 +2,82 @@ let referater = [
 
 // tilføj referat nedenfor (husk komma):
 { 
+  title: 'Beslutningsreferat',
+  id: 'beslutning-dec-24',
+  tid: 'December 2024',
+  attendees: 'NMA, ITG, BB',
+  text: `Læs det officielle beslutningsreferat her: <a href="https://www.sab-bolig.dk/boligafdelinger/alfabetisk-oversigt/askholm/boks2/afdelingsmoeder/09-12-2024-ekstraordinaert">Link til referat</a>
+  `
+}, { 
+  title: 'Bestyrelsesmøde + Markvandring',
+  id: 'best-nov-24',
+  tid: 'November 2024',
+  attendees: 'NMA, ITG, BB',
+  text: `<h3>30-årig vedligeholdelsesplan (PPV)</h3>
+    <p>
+        Maling af opgange er udskudt 5 år, som aftalt, med afsat beløb til løbende reparationer.<br>
+        Der er afsat midler til tjek af vandinstallationer i alle lejemål og årlige reparationer.
+    </p>
+
+    <h3>Udskiftning af murerfuger</h3>
+    <p>
+        Foreløbigt udskudt 5 år, med mulighed for yderligere udsættelse. Justeringer foretages, når der er en standard i KAB.
+    </p>
+
+    <h3>Økonomiske justeringer</h3>
+    <p>
+        Henlæggelser er planlagt til at blive hævet med 2% af huslejen, som vedtaget af organisationen - der undersøges hvorvidt dette er nødvendigt.<br>
+        Med denne justering viser beregninger, at der først vil være underskud i 2048/2049.
+    </p>
+
+    <h3>Budget og møder</h3>
+    <p>
+        Kundeøkonomen fremsender et budgetudkast i god tid inden afdelingsmødet.<br>
+        Der aftales et budgetmøde for at gennemgå den økonomiske situation og diskutere mulige løsninger.
+    </p>
+
+    <h3>Aktionsliste</h3>
+    <p>
+        En opdateret aktionsliste med deadlines for de aftalte punkter fra markvandringen sendes inden jul.
+    </p>
+  `
+}, { 
+  title: 'Bestyrelsesmøde',
+  id: 'best-sep-24',
+  tid: 'September 2024',
+  attendees: 'NMA, ITG, BB',
+  text: ` <h3>Cykelparkering</h3>
+    <p>
+        Der opfordres til at gennemføre en cykeloprydning i grundejerforeningen (GF).<br>
+        Midler fra GF kan anvendes til opsætning af nye cykelstativer eller ændring af layout og udformning af de eksisterende.<br>
+        Bestyrelsen modtager gerne forslag til placering eller ændringer.<br><br>
+        Der udsendes et brev med henstilling til ikke at parkere cykler langs facaden, og der modtages gerne forslag til, hvordan cykelparkeringsforholdene kan forbedres.<br><br>
+        Cykeloprydning i både kælderen og gården koordineres i regi af gårdlauget.
+    </p>
+
+    <h3>Opfølgning på beboerforespørgsler</h3>
+    <p>
+        Brevet om cykelparkering er behandlet som beskrevet ovenfor.<br><br>
+        Problematikken omkring betalingsparkering ved brug af ladestandere i grundejerforeningen tages op på næste bestyrelsesmøde.
+    </p>
+
+    <h3>Markvandring</h3>
+    <p>
+        Planlagte datoer: 21. eller 22. august kl. 17 og 18. september kl. 19. Yderligere markvandring kan ske i november.<br><br>
+        Følgende punkter vil blive gennemgået:<br>
+        - Vandskader og rustne rør<br>
+        - Mulighed for etablering af el-ladere<br>
+        - Udluftning i opgange<br>
+        - Tjek af lokaler med en checkliste
+    </p>
+
+    <h3>Nyt fra GF</h3>
+    <p>
+        Der er planlagt et møde omkring den grønne plads.<br>
+        Forbedring af cykelparkering omkring afdelingen diskuteres, eventuelt i samarbejde med gårdlauget.
+    </p>
+  `
+}, { 
   title: 'Bestyrelsesmøde',
   id: 'best-maj-24',
   tid: 'Maj 2024',
